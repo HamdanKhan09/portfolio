@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamdan Khan | AI-Native Developer</title>
+    <meta name="description" content="Portfolio of Hamdan Khan, Product Engineering Intern and AI-Native Developer.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Hamdan<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="badge">Available for Work</div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Hamdan Khan</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span class="gradient-text typing-text"></span><span class="cursor">&nbsp;</span>
+                    </h2>
+                    <p class="hero-desc">
+                        Passionate about rapid prototyping and translating real user needs into functional software, with a strong interest in edtech and healthtech applications.
+                    </p>
+                    
+                    <div class="hero-actions">
+                        <a href="assests/Hamdan_Khan_Resume.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="mailto:hamdankhan.dev@gmail.com" class="btn btn-secondary">
+                            <i class="fas fa-paper-plane"></i> Let's Talk
+                        </a>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/hamdan-khan-25313231a" target="_blank" aria-label="LinkedIn" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/HamdanKhan09" target="_blank" aria-label="GitHub" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:hamdankhan.dev@gmail.com" aria-label="Email" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919860285189" aria-label="Phone" class="social-icon">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-wrapper">
+                    <div class="image-container">
+                        <img src="assests/hamd.jpg" alt="Hamdan Khan" id="profile-img">
+                        <div class="glow-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content glass-panel">
+                <div class="about-text">
+                    <h3>Profile Summary</h3>
+                    <p>Recent Computer Engineering graduate with hands-on experience in AI-native development, SQL data analysis, and LLM-powered tooling. Proficient with Claude Code and AI-first workflows.</p>
+                </div>
+                <div class="education-timeline">
+                    <h3>Education</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>B.E. Computer Engineering</h4>
+                            <span class="timeline-date">2025 | Mumbai, IN</span>
+                            <p>Vasantdada Patil Pratishthan's College of Engineering and Visual Arts</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>IBM Data Science Professional Certificate</h4>
+                            <span class="timeline-date">Coursera / IBM</span>
+                            <p>Python, SQL, Machine Learning, Data Visualization, NLP</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>GATE Examination</h4>
+                            <span class="timeline-date">Competitive Examination — Core CS</span>
+                            <p>Appeared in Graduate Aptitude Test in Engineering with strong preparation across all core CS subjects. Demonstrated solid understanding of theoretical concepts, with regular revision of OS, DBMS, CN, and DSA topics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Technical <span class="highlight">Arsenal</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Claude Code</span>
+                        <span>Anthropic API</span>
+                        <span>OpenAI API</span>
+                        <span>Cursor</span>
+                        <span>Lovable</span>
+                        <span>Bolt.new</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                        <span>TypeScript</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>React Native</span>
+                        <span>Expo</span>
+                        <span>React</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend & DBs</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Supabase</span>
+                        <span>PostgreSQL</span>
+                        <span>Node.js</span>
+                        <span>REST APIs</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class="fas fa-chart-network"></i>
+                        <h3>Data & ML</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Scikit-learn</span>
+                        <span>HuggingFace</span>
+                        <span>BERT</span>
+                        <span>NLP</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category glass-panel">
+                    <div class="category-header">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>Design & Workflow</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span>Figma</span>
+                        <span>Git/GitHub</span>
+                        <span>Agile</span>
+                        <span>Prompt Engineering</span>
+                        <span>ETL Pipelines</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3 class="project-title">Go-HAWK</h3>
+                        <div class="project-tech">
+                            <span>React Native</span><span>Expo</span><span>Supabase</span><span>TypeScript</span><span>Twilio</span><span>Google OAuth</span>
+                        </div>
+                        <ul class="project-bullets">
+                            <li>Built a production-ready cross-platform mobile application (Android and iOS) with 2 authentication methods (OTP via Twilio and Google OAuth), handling real-time data, user authentication, and cloud storage end-to-end.</li>
+                            <li>Resolved 10+ complex multi-provider authentication bugs independently, cutting auth-related errors to zero before final release.</li>
+                            <li>Integrated Anthropic API for AI-powered features across 3 core screens, iterating through 5+ feedback cycles to improve usability and response quality.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3 class="project-title">Go-Hawk PDF Tools</h3>
+                        <div class="project-tech">
+                            <span>React Native</span><span>Expo</span><span>TypeScript</span><span>pdf-lib</span><span>Node.js</span>
+                        </div>
+                        <ul class="project-bullets">
+                            <li>Designed and built a mobile-first PDF utility application with 6 core tools (merge, split, compress, rotate, delete pages, reorder pages), supporting files up to 50MB with offline processing.</li>
+                            <li>Achieved approximately 40% file size reduction at high compression settings using a Node.js and pdf-lib backend, with real-time before/after size comparison.</li>
+                            <li>Delivered a complete UI with drag-and-drop reordering, page thumbnail previews, and smooth Reanimated transitions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <h3 class="project-title">Fake News Detection System</h3>
+                        <div class="project-tech">
+                            <span>BERT</span><span>Python</span><span>HuggingFace</span>
+                        </div>
+                        <ul class="project-bullets">
+                            <li>Fine-tuned a BERT model on 20,000+ labeled news samples, achieving 94.3% classification accuracy.</li>
+                            <li>Deployed the model as a REST API serving real-time predictions in under 300ms.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+            <div class="contact-container glass-panel">
+                <p class="contact-text">Currently open to new opportunities. Let's build something amazing together.</p>
+                <div class="contact-methods">
+                    <a href="mailto:hamdankhan.dev@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hamdankhan.dev@gmail.com</span>
+                    </a>
+                    <a href="tel:+919860285189" class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9860285189</span>
+                    </a>
+                    <span class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Bhiwandi, Maharashtra, IN</span>
+                    </span>
+                </div>
+                <a href="mailto:hamdankhan.dev@gmail.com" class="btn btn-primary" style="margin-top: 2rem;">
+                    Say Hello
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Hamdan Khan. Built with AI-Native tools.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
