@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+
+  --color-neutral-950: var(--ds-bg-main);
+  --color-neutral-900: var(--ds-bg-surface);
+  --color-neutral-800: var(--ds-border-main);
+  --color-neutral-700: var(--ds-border-hover);
+  --color-neutral-600: var(--ds-text-muted-alt);
+  --color-neutral-500: var(--ds-text-muted);
+  --color-neutral-400: var(--ds-text-secondary);
+  --color-neutral-300: var(--ds-text-body);
+  --color-neutral-200: var(--ds-text-heading-alt);
+  --color-neutral-100: var(--ds-bg-elevated);
+  --color-neutral-50: var(--ds-bg-elevated-hover);
+  --color-white: var(--ds-text-heading);
+  --color-black: var(--ds-bg-main);
+  
+  --color-indigo-300: var(--ds-indigo-300);
+  --color-indigo-400: var(--ds-indigo-400);
+  --color-indigo-500: var(--ds-indigo-500);
+  --color-indigo-600: var(--ds-indigo-600);
+  
+  --color-purple-400: var(--ds-purple-400);
+  --color-purple-500: var(--ds-purple-500);
+  
+  --color-emerald-400: var(--ds-emerald-400);
+  --color-emerald-500: var(--ds-emerald-500);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+  }
+
+  *, ::before, ::after {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+
+  :root {
+    --ds-bg-main: #f8fafc;
+    --ds-bg-surface: #f1f5f9;
+    --ds-border-main: #e2e8f0;
+    --ds-border-hover: #cbd5e1;
+    --ds-text-muted-alt: #94a3b8;
+    --ds-text-muted: #64748b;
+    --ds-text-secondary: #475569;
+    --ds-text-body: #334155;
+    --ds-text-heading-alt: #1e293b;
+    --ds-text-heading: #0f172a;
+    --ds-bg-elevated: #ffffff;
+    --ds-bg-elevated-hover: #f8fafc;
+    
+    --ds-indigo-300: #e54865;
+    --ds-indigo-400: #d42a4a;
+    --ds-indigo-500: #B10F2E;
+    --ds-indigo-600: #8a0b23;
+    
+    --ds-purple-400: #9333ea;
+    --ds-purple-500: #7e22ce;
+    
+    --ds-emerald-400: #16a34a;
+    --ds-emerald-500: #15803d;
+  }
+
+  .dark {
+    --ds-bg-main: #0a0a0a;
+    --ds-bg-surface: #171717;
+    --ds-border-main: #262626;
+    --ds-border-hover: #404040;
+    --ds-text-muted-alt: #525252;
+    --ds-text-muted: #737373;
+    --ds-text-secondary: #a3a3a3;
+    --ds-text-body: #d4d4d4;
+    --ds-text-heading-alt: #e5e5e5;
+    --ds-text-heading: #ffffff;
+    --ds-bg-elevated: #262626;
+    --ds-bg-elevated-hover: #404040;
+    
+    --ds-indigo-300: #f4728b;
+    --ds-indigo-400: #e54865;
+    --ds-indigo-500: #B10F2E;
+    --ds-indigo-600: #910c25;
+    
+    --ds-purple-400: #c084fc;
+    --ds-purple-500: #a855f7;
+    
+    --ds-emerald-400: #34d399;
+    --ds-emerald-500: #10b981;
+  }
+}
